@@ -1,25 +1,21 @@
 
-# Predicting Match Outcomes in Major League Soccer
+# Predicting Match Outcomes in Major League Soccer with an ELO Model
 
+Sports are hard to predict － that much is clear... but that doesn't mean we shouldn't try. 
 
+In case you're unfamliar with Soccer or Major League Soccer specifically, allow me to provide some context. 
 
-In case you're unfamliar with Soccer or Major League Soccer specifically, allow me to provide some helpful context. 
+Major League Soccer is an extremely young league compared to the best and oldest in the world, and despite it's rapid growth in the last decade, it still has a long way to go before it can truly compete with the best. One way in which it differs significantly from other leagues (especially the biggest European leagues) is that MLS is ultimately a single organization. Instead of a capitalistic model in which wealthy teams gain significant advantage over those with fewer resources, MLS strives to maintain a meaningful degree of parity to keep all teams competative. Of course - all sports have a large amount of chance involved and far too many unmeasurable variables to accurately predict future outcomes. Because of the balance imposed on the clubs within MLS, though, there's an even greater chance that matches end in unexpected ways. 
 
-To put it gently, the best soccer in the world is definitely not played in the United States. Major League Soccer is an extremely young league compared to the best and oldest in the world and despite it's rapid growth in the last decade, it still has a long way to go before it can truly compete with the best.
+<!-- While the best European teams can attract and afford to have top tier talent all the way through their rosters, MLS teams are forced to be extremely careful with the money they're allowed to spend. Most teams have a handful of expensive players while the rest of the roster is filled out with less expensive talent.  -->
 
-One of the many reasons that the best leagues are as good as they are is the availability of financial resources. They can attract the best players from around the world and pay them as much as the wealthiest teams can afford. For many leagues in Europe, it's simply sports capitalism. Those who can spend the most money and have the best reputation oftentimes dominate those without. <!--The flip side is that any team that wants to play can play. They start in the lowest teir of the countries leagues and work their way up the ladder season by season. If they win, they get to move up. The hope for many teams is that their team can find the right players, and go on a miraculous run up the standings to go head to head with the best.-->
+<!--One of the many reasons that the best leagues are as good as they are, is the availability of financial resources. They operate on capatalistic models in which the wealthiest teams have significant advantages over those with smaller budgets. For many leagues in Europe, it's simply sports capitalism. Those who can spend the most money and have the best reputation oftentimes dominate those without. The flip side is that any team that wants to play can play. They start in the lowest teir of the countries leagues and work their way up the ladder season by season. If they win, they get to move up. The hope for many teams is that their team can find the right players, and go on a miraculous run up the standings to go head to head with the best.-->
 
-Somewhat ironically, it's our American domestic league that operates on a more socialist-like structure. The league is ultimately a single organization that maintains financial and operational policies that ensure a balanced distribution of resources. This doesn't mean that there isn't some room for teams to spend more (there are of course those that do), but limitations keep lesser-funded teams at a reasonablly competitive level. While a handful of teams may struggle for a while, there is usually thriving competition in (at least) the upper two-thirds of the league. And on top of that, the teams that play poorly have ample opportunity to grow and return to high levels of play.
-<!---(called clubs, because they often have multiple teams and different levels of play)---> 
+<!---Somewhat ironically, it's our American domestic league that operates on a more socialist-like structure. The league is ultimately a single organization that maintains financial and operational policies that ensure a balanced distribution of resources. This doesn't mean that there isn't some room for teams to spend more (there are of course those that do), but limitations keep lesser-funded teams at a reasonablly competitive level. While a handful of teams may struggle for a while, there is usually thriving competition in (at least) the upper two-thirds of the league. And on top of that, the teams that play poorly have ample opportunity to grow and return to high levels of play. (called clubs, because they often have multiple teams and different levels of play)---> 
 
-<div style="text-align:center;">
-<p style="text-align:center;">
-<h4 style="text-align:center;">To those foolish enough to believe that they can predict the outcomes of matches <br> in Major League Soccer with anything like consistency or accuracy, parity says this: <br>"Buckle up."
-</h4> 
-</p>
-</div>
+So to those those foolish enough to believe that they can predict the outcomes of matches <br> in Major League Soccer with anything like consistency or accuracy, parity says this: "Buckle up."
 
-Major League Soccer can be absolutely wacky. Upsets aren't that uncommon and teams who seem to be soaring over the rest can fall unexpectedly - to the despair of their fans, who are regularly forced to question all they beleive to be true about the players they love. One week your team is defeating high-quality teams on the road... and then the next they host a team at the bottom of the table and lose. It's devestating... and it's beautiful. 
+In a league like this one, upsets aren't uncommon and teams who seem to be soaring over the rest can always fall unexpectedly - to the despair of their fans, who are regularly forced to question all they beleive to be true about the players they love. One week they're riding high, defeating high-quality teams on the road... and then they host a struggling team at home and lose. It's devestating... and it's beautiful. 
 
 So let's do this.
 
