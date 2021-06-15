@@ -34,3 +34,16 @@ secrets.JSON
 # Thumbnails
 ._*
 
+##### Tableau ##### 
+
+.~*
+
+
+##### Tableau - Steffek ##### 
+Datasources/
+Logs/
+Shapes/
+TabOnlineSyncClient/
+*.tps
+# Steffek
+# http://sqldbpros.com/2017/08/tableau-git-ignore-default-directories-and-preference-files/
